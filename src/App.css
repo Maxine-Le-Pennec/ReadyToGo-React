@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+header {
+  font-family: "Montserrat", sans-serif;
+
+  display: flex;
+  padding-left: 123px;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  border: 1px solid #e5e5e5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+  margin-right: 54px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  /* height: 100%; */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  height: 550px;
+  width: 550px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.control {
+  height: 550px;
+  width: 550px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  width: 358px;
+  height: 110px;
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.switch button {
+  border-style: none;
+  border: 1px solid #908f8f;
+  border-radius: 6px;
+  height: 70px;
+  width: 120px;
+  margin-right: 71px;
+  font-size: 38px;
+}
+.on {
+  color: #5c48d3;
+  background-color: white;
+}
+
+.off {
+  color: white;
+  background-color: #5c48d3;
+}
+
+/* .control p {
+  
+} */
+
+.alerte {
+  height: 145.83px;
+  width: 250px;
+  background-color: #d34849;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.alerteok {
+  height: 145.83px;
+  width: 250px;
+  background-color: #47ac4b;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color: white;
 }
